@@ -1,0 +1,27 @@
+{
+  "name": "rick_morthy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamoliddinrikhsiyev/rick_morthy.git"
+  },
+  "keywords": [],
+  "author": "Jamoliddin Rikhsiyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamoliddinrikhsiyev/rick_morthy/issues"
+  },
+  "homepage": "https://github.com/jamoliddinrikhsiyev/rick_morthy#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "pg": "^8.7.1",
+    "pg-pool": "^3.4.1"
+  }
+}
