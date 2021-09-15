@@ -10,9 +10,9 @@ queryDb( queries.createTable);
 
 async function insertCharacters(url){
     let res = await fetchData(url);
-    let args = [];
     
     for(let i of res.results ){
+        let args = [];
         args[0] = i.name;
         args[1] = JSON.stringify(i);
         queryDb( queries.insertTable, args );
